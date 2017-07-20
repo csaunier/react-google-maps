@@ -77,6 +77,8 @@ const publicMethodMap = {
   getPaths(polygon) { return polygon.getPaths(); },
 
   getVisible(polygon) { return polygon.getVisible(); },
+  
+  setOptions(polygon, options) { polygon.setOptions(options[0]); },
   // END - Public APIs
 };
 
